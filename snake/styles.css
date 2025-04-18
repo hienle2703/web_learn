@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.game-container {
+    text-align: center;
+}
+
+.score {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.grid {
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+    grid-template-rows: repeat(20, 20px);
+    border: 2px solid #333;
+    background: #ddd;
+}
+
+.snake {
+    background: #2ecc71;
+    border-radius: 3px;
+}
+
+.food {
+    background: #e74c3c;
+    border-radius: 50%;
+}
